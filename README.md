@@ -107,8 +107,8 @@ void loop() {
 
 ```text
 .
-+-- Face.py
-`-- README.md
+├─ Face.py
+└─ README.md
 ```
 
 ## Links
