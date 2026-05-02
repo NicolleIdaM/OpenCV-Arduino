@@ -1,8 +1,15 @@
-# OpenCV Arduino
+# OpenCV Arduino Motion Detector
 
 Projeto simples que usa Python, OpenCV e comunicacao serial para detectar rostos pela webcam e enviar um sinal para um Arduino.
 
 Quando um rosto e detectado, o script envia `1` pela porta serial. Quando nenhum rosto e detectado, envia `0`. No Arduino, esses valores podem ser usados para ligar/desligar um LED, acionar um servo, controlar um rele ou qualquer outro componente.
+
+## Technologies
+
+- Python
+- OpenCV
+- Arduino Software
+- pyserial
 
 ## Como Funciona
 
@@ -103,3 +110,6 @@ void loop() {
 +-- Face.py
 `-- README.md
 ```
+
+## Links
+
